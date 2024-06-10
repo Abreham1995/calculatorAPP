@@ -1,1 +1,17 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display" id="display">0</div>
+      <button class="btnopc" onclick="clearDisplay()">C</button>
+      <div class="buttons">
+        <button class="btn" onclick="appendToDisplay('7')">7</button>
+        <button class="btn" onclick="appendToDisplay('8')">8</button>
+        <button class="btn" onclick="appendToDisplay('9')">9</button>
+        <button class="btnop" onclick="appendToDisplay('/')">/</button>
